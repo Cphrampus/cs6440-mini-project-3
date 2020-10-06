@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="./lib/css/styles.css">
+  <link rel="stylesheet" href="./lib/css/highcharts.css">
 </head>
 
 <body>
@@ -67,12 +68,24 @@
           <ul id="med_list"></ul>
         </div>
       </div>
+      <figure class="highcharts-figure">
+        <div id="height-container"></div>
+        <div id="weight-container"></div>
+        <div id="hldl-container"></div>
+        <div id="bp-container"></div>
+        <div id="bmi-container"></div>
+    </figure>
 
     </main>
   </div>
 
+
+
   <script src='./lib/js/fhir-client.js'></script>
- <script src="./lib/js/get-data.js"></script>
+  <script src="./lib/js/highcharts.js"></script>
+  <script src="./lib/js/series-label.js"></script>
+
+  <script src="./lib/js/get-data.js"></script>
 
   <!-- uncomment below script and comment above script to switch for easy local testing -->
   <!-- <script src="./lib/js/get-data-test.js"></script> -->
