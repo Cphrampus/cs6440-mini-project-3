@@ -69,11 +69,16 @@ body {
 }
 
 .small-card {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   background-color: #293543;
+}
+
+.small-card .row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .big-card {
@@ -104,7 +109,7 @@ body {
 
 }
 
-.annotation-box {
+.vitals-box {
   padding: 10px;
   font-size: 15px;
   border: 1px solid grey;
@@ -113,7 +118,7 @@ body {
   background: #f1f1f1;
 }
 
-.annotation-button{
+.vitals-button{
   float: left;
   width: 20%;
   padding: 10px;
