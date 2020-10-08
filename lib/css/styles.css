@@ -79,6 +79,7 @@ body {
 .small-card .row {
   display: flex;
   justify-content: space-between;
+  width: 120%;
 }
 
 .big-card {
